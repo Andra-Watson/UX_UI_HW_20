@@ -1,0 +1,182 @@
+/*
+* {
+    border: 1px solid red;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav img{
+    width: 75px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #017E9B;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #017E9B;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding: 3%;
+}
+
+.process {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+.affinity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+}
+
+.insight {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+}
+
+.competitor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 3%;
+}
+
+.userpersona {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+}
+
+.journey {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+}
+
+.ideate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 3%;
+}
+
+.flow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 3%;
+}
+
+.draw {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 3%;
+}
+
+.wireframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 3%;
+}
+
+.prototype {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 3%;
+}
+
+h1 {
+    text-align: left;
+    color: #017E9B;
+    padding-left: 18%;
+}
+
+h2{
+    text-align: left;
+    color:#063944;
+    padding-left: 25%; 
+    padding-top: 3%;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+    color:#063944;
+    padding-left: 25%; 
+}
+
+ul{
+    list-style-position: inside;
+}
+
+ul li {
+    text-align: left;
+    color:#063944;
+    padding-left: 27%;
+}
+
+
+
+
+
